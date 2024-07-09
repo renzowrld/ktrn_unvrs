@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KTRVRS</title>
+    <link rel="shortcut icon" href="res/logo.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <img src="res/logo.svg" alt="logo">
+        <ul>
+            <a href="#">
+                Home
+            </a>
+            <a href="#about">
+                About
+            </a>
+            <a href="pages/video.html">
+                Animation
+            </a>
+            <a href="pages/digital.html">
+                Illustration
+            </a>
+            <a href="#contact">
+                Contacts
+            </a>
+        </ul>
+        <button class="download" type="button" id="download-btn">
+            <span class="download-icon">&#x21e9;</span>
+            <span class="label">Download CV</span>
+        </button>
+    </nav>
+    <div class="spacer"></div>
+    <div class="hero">
+        <div class="row">
+            <h1 class="hero-header slidel outlined-text">WELCOME TO</h1>
+        </div>
+        <div class="row">
+            <h1 class="slider" ><span>KATRINA'S</span></h1>
+        </div>
+        <div class="row">
+            <h1 class="hero-header slidel">UNIVERSE</h1>
+        </div>
+        <div class="center">
+            <div class="object">
+                <iframe class="model" src='https://my.spline.design/untitled-e3f447d54a418cb4f064a2cd30668b9b/' frameborder='0' width='100%' height='100%'></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="left about-inner">
+            <img src="res/profile.png" alt="">
+        </div>
+        <div class="right about-inner">
+            <h1>Katrina Gale</h1>
+            <h3>a Filipino-Canadian who uses multi-media to create animations</h3>
+            <p>Katrina Gale H. is an Experimental Animation student, born in Bulacan, Philippines and raised in Toronto, ON. Gale uses mixed media and explores the boundaries of traditional and digital medium in her animation work including stop-motion, 2d and 3d animation. In her works, she subtly tackles societal and philosophical issues in her visual narrative storytelling. Gale aims to produce a mixed-media short film for Ottawa International Animation Film Festival. 
+            </p>
+            <button id="download-btn-1" class="download" type="button">
+                <span class="download-icon">&#x21e9;</span>
+                <span class="label">Download CV</span>
+            </button>
+        </div>
+    </div>
+    <div class="skills">
+        <img src="res/skills.svg" alt="">
+    </div>
+    <div class="gallery">
+        <video src="res/videos/1.mp4" autoplay="true" muted loop></video>
+        <div class="cover"></div>
+        <h1>Welcome to My Art Portfolio</h1>
+        <h3>Discover my creative journey and projects</h3>
+        <a href="pages/video.html">Explore Projects</a>
+    </div>
+    <div class="library">
+        <div class="l-left library-inner">
+            <div class="cover"></div>
+            <a href="pages/video.html">
+                <h2 class="cover-text">Animations</h2>
+            </a>
+        </div>
+        <div class="l-right library-inner">
+            <div class="cover"></div>
+            <a href="pages/digital.html">
+                <h2 class="cover-text">Digital Arts</h2>
+            </a>
+        </div>
+    </div>
+    <footer id="contact">
+        <div class="f-upper">
+            <h1>Want to start<br> a new project?</h1>
+            <h3>Email: katrinagaleh@gmail.com<br>
+                Instagram: @ktrn_unvrs<br>
+                Youtube: www.youtube.com/@katsanimation4295</h3>
+        </div>
+        <div class="f-middle">
+            <a class="footer-element" href="https://www.youtube.com/@katsanimation4295">
+                Youtube
+            </a>
+            <a class="footer-element" href="https://www.instagram.com/ktrn_unvrs">
+                Instagram
+            </a>
+            <a class="footer-element" href="https://www.threads.net/@ktrn_unvrs?igshid=MzRlODBiNWFlZA==">
+                Threads
+            </a>
+            <a class="footer-element" href="https://www.linkedin.com/in/katrina-gale-hernandez-b19496298/">
+                LinkedIn
+            </a>
+        </div>
+        <div class="f-lower footer-element">
+            <h1><span class="accent">ART</span> <span>BY</span> KATRINA</h1>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="anim/landing.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

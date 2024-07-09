@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KTRVRS</title>
+    <link rel="shortcut icon" href="../res/logo.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/video.css">
+</head>
+<body>
+    <nav>
+        <img src="../res/logo.svg" alt="logo">
+        <ul>
+            <a href="../index.html">
+                Home
+            </a>
+            <a href="../index.html#about">
+                About
+            </a>
+            <a href="../pages/video.html">
+                Animation
+            </a>
+            <a href="../pages/digital.html">
+                Illustration
+            </a>
+            <a href="../index.html#contact">
+                Contacts
+            </a>
+        </ul>
+        <button class="download" type="button">
+            <span class="download-icon">&#x21e9;</span>
+            <span class="label">Download CV</span>
+        </button>
+    </nav>
+
+    <div class="main-container">
+        <div class="inner-container">
+            <div class="upper">
+                <div class="header-container">
+                    <h1>Animations</h1>
+                </div>
+                <div class="logo-container">
+                    <img src="../res/logo.svg" alt="Logo">
+                </div>
+                <div class="image">
+                    <img src="../res/digital/art4.png" alt="Logo">
+                </div>
+            </div>
+
+            <a class="video-click" href="../pages/animation-page/page1.html">
+                <div class="video-container row-1" onclick="">
+                    <div class="hover-background"></div>
+                    <video class="video" src="../res/videos/1.mp4" autoplay loop muted></video>
+                </div>
+            </a>
+            <div class="title-container first yellow-bg row-1">
+                <h1>Show<br>Reel<br>
+                    2022<br>2023
+                </h1>
+            </div>
+
+            <div class="title-container second row-1">
+                <h1>HOW THE<br>RAVEN STOLE<br>THE LIGHT
+                </h1>
+            </div>
+            <a class="video-click" href="../pages/animation-page/page2.html">
+                <div class="video-container row-1">
+                    <div class="hover-background yellow-bg-hover"></div>
+                    <video class="video" src="../res/videos/2.mp4" autoplay loop muted></video>
+                </div>
+            </a>
+            <a class="video-click" href="../pages/animation-page/page3.html">
+                <div class="video-container row-2">
+                    <div class="hover-background"></div>
+                    <video class="video" src="../res/videos/3.mp4" autoplay loop muted></video>
+                </div>
+            </a>
+            <div class="title-container yellow-outline third row-2">
+                <h1>self portrait stop motion
+                </h1>
+            </div>
+            
+            <div class="title-container fourth row-3">
+                <h1>space cat<br>cow<br>boy
+                </h1>
+            </div>
+            <a class="video-click" href="../pages/animation-page/page4.html">
+                <div class="video-container row-3">
+                    <div class="hover-background"></div>
+                    <video class="video" src="../res/videos/4.mp4" autoplay loop muted></video>
+                </div>
+            </a>
+            <a class="video-click" href="../pages/animation-page/page5.html">
+                <div class="video-container row-4">
+                    <div class="hover-background yellow-bg-hover"></div>
+                    <video class="video" src="../res/videos/5.mp4" autoplay loop muted></video>
+                </div>
+            </a>
+            <div class="title-container fifth row-4">
+                <h1>T.V. mixed media anim<br>ation
+                </h1>
+            </div>
+            
+            <div class="title-container sixth row-5">
+                <h1>the<br>
+                    tun<br>
+                    nel
+                </h1>
+            </div>
+            <a class="video-click" href="../pages/animation-page/page6.html">
+                <div class="video-container row-5">
+                    <div class="hover-background"></div>
+                    <video class="video"  src="../res/videos/6.mp4" autoplay loop muted></video>
+                </div>
+            </a>
+        </div>
+    </div>  
+</body>
+<script>
+    let vid = document.getElementsByClassName("video");
+    vid.playbackRate = 0.3;
+</script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="../anim/video.js"></script>
+</html>
